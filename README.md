@@ -1,9 +1,9 @@
 # APTStore
 
-É um shell script para facilitar a instalação de programas em linux que não tenha loja, só via `apt install <nome_do_programa>`
+É um shell script para facilitar a instalação de programas em linux<br> que não tenha loja GUI, só via `apt install <nome_do_programa>`, esse script mostra um TUI(Terminal User Interface)
 
 # Modo de Uso
-Para rodar basta digitar: `bash apt-store` ou `./apt-store` <br>
+Para rodar basta digitar: <br> `bash apt-store` ou `./apt-store` <br>
 caso tenha dado permissão de execução.
 
 # Screenshots / Exemplos

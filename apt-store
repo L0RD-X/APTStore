@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+Buscar(){
+    palavra=$(dialog --title "APTStore" --inputbox "Nome do programa: " 15 50 --stdout)
+
+    saida=$(apt list | grep -i $palavra | awk -F "/" '{print $1}')
+
+    dialog --title "APTStore | Buscas: $palavra" --msgbox "Atenção copie ou anote o nome do programa e escreva na próxima tela\n $saida" 15 50
+    choice=$(dialog --title "APTStore | Imstalação" --inputbox "Digite aqui: " 15 50 --stdout)
+
+    clear
+    echo -e "\e[1;32m Inicializando instalação...\e[1;0m"
+    apt install $choice -y
+    dialog --title "APTStore | Instalado!" --msgbox "Programa $choice instalado com sucesso\n\n(PS: assim esperamos)" 15 50
+    clear
+    echo -e "\e[1;32m APTStore by ImperiumCog"
+
+}
+
+Buscar

@@ -8,6 +8,8 @@ caso tenha dado permissão de execução.
 
 # Screenshots / Exemplos
 <img src="exemplos/Screenshot_20230405-172847_Termux.jpg" width="75%">
-<img src="exemplos/Screenshot_20230405-172848_Termux.jpg" width="75%">
-<img src="exemplos/Screenshot_20230405-172849_Termux.jpg" width="75%">
-<img src="exemplos/Screenshot_20230405-172850_Termux.jpg" width="75%">
+<img src="exemplos/Screenshot_20230405-172851_Termux.jpg" width="75%">
+<img src="exemplos/Screenshot_20230405-172902_Termux.jpg" width="75%">
+<img src="exemplos/Screenshot_20230405-172905_Termux.jpg" width="75%">
+
+   Fiz no termux mas roda em qualquer debian/ubunto
